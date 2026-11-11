@@ -1,0 +1,194 @@
+{
+ "meta": {
+  "date": "2026-11-05T07:38:48.431Z",
+  "node": "v26.8.1",
+  "tools": {
+   "webpack": "5.112.2",
+   "rspack": "2.3.1"
+  }
+ },
+ "builds": {
+  "webpack-eager": {
+   "tool": "webpack",
+   "version": "5.112.2",
+   "file": "dist/webpack-eager/worker.mjs",
+   "assets": [
+    "worker.mjs",
+    "worker.mjs.LICENSE.txt"
+   ],
+   "buildMs": 4708,
+   "bytes": 1414291,
+   "gzipBytes": 386700,
+   "sha1": "7b2d75bb15f07f8472458b6030d4c89ea75bfbbe",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "webpack-defer": {
+   "tool": "webpack",
+   "version": "5.112.2",
+   "file": "dist/webpack-defer/worker.mjs",
+   "assets": [
+    "worker.mjs",
+    "worker.mjs.LICENSE.txt"
+   ],
+   "buildMs": 4302,
+   "bytes": 1426390,
+   "gzipBytes": 389415,
+   "sha1": "699a9a2a34bcdb0be7615a0d414fb2b32b9d9068",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "webpack-eager-nomin": {
+   "tool": "webpack",
+   "version": "5.112.2",
+   "file": "dist/webpack-eager-nomin/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 585,
+   "bytes": 4440095,
+   "gzipBytes": 868019,
+   "sha1": "092abb088529f91791a1f338bae9aa14220f44f6",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "webpack-defer-nomin": {
+   "tool": "webpack",
+   "version": "5.112.2",
+   "file": "dist/webpack-defer-nomin/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 627,
+   "bytes": 4493721,
+   "gzipBytes": 877177,
+   "sha1": "484d2dd18f9b86a8cddb7ef5329f2bd10aa4246d",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-eager": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-eager/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 543,
+   "bytes": 1373649,
+   "gzipBytes": 382677,
+   "sha1": "04ddb13d8fe53d613ba7bbe458ccc65b324ff698",
+   "moduleCount": 634,
+   "moduleCountNested": 20,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-defer": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-defer/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 360,
+   "bytes": 1393708,
+   "gzipBytes": 385727,
+   "sha1": "6e6d5812e5d969c44e5b55fa57ef7ffb1e3dacee",
+   "moduleCount": 634,
+   "moduleCountNested": 38,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-eager-nomin": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-eager-nomin/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 84,
+   "bytes": 4459368,
+   "gzipBytes": 868040,
+   "sha1": "9f6774897ccfcd7b2bed95c755dab9765632a574",
+   "moduleCount": 634,
+   "moduleCountNested": 20,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-defer-nomin": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-defer-nomin/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 68,
+   "bytes": 4516846,
+   "gzipBytes": 876292,
+   "sha1": "e5a13f63f894a743a44e532b4bb6aab3a5a3a812",
+   "moduleCount": 634,
+   "moduleCountNested": 38,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-eager-noconcat": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-eager-noconcat/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 385,
+   "bytes": 1445104,
+   "gzipBytes": 403146,
+   "sha1": "6ddc2085a5584fc4a8ab436c621df8c05799b116",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  },
+  "rspack-defer-noconcat": {
+   "tool": "rspack",
+   "version": "2.3.1",
+   "file": "dist/rspack-defer-noconcat/worker.mjs",
+   "assets": [
+    "worker.mjs"
+   ],
+   "buildMs": 361,
+   "bytes": 1445306,
+   "gzipBytes": 403209,
+   "sha1": "4b5e84db9f6897fb256c3325677baba77d1b3bea",
+   "moduleCount": 634,
+   "moduleCountNested": 634,
+   "warnings": [],
+   "importMetaLeft": 0,
+   "importDeferSyntaxLeft": false,
+   "topLevelImports": []
+  }
+ }
+}

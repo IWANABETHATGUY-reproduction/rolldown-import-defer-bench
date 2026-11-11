@@ -1,0 +1,4 @@
+rolldown {"runEager":0.4,"runStatic":1.4,"runEagerEscaped":1.44,"runEscaped":26.9}
+rolldown-pife {"runEager":0.43,"runStatic":1.46,"runEagerEscaped":1.47,"runEscaped":26.9}
+webpack {"runEager":0.43,"runStatic":10.19,"runEagerEscaped":1.47,"runEscaped":23.16}
+rspack {"runEager":0.44,"runStatic":9.46,"runEagerEscaped":1.48,"runEscaped":14.03}

@@ -1,0 +1,10 @@
+{
+  "name": "import-defer-bench-tools",
+  "private": true,
+  "type": "module",
+  "description": "webpack and Rspack for the bundler comparison. Kept apart from ../package.json, so that the app packages do not change.",
+  "dependencies": {
+    "@rspack/core": "2.3.1",
+    "webpack": "5.112.2"
+  }
+}
