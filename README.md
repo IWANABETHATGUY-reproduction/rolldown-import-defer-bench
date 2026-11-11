@@ -44,7 +44,7 @@ A PIFE is a function expression in parentheses. V8 compiles it eagerly. On the b
 
 ## Builds
 
-The sha1 column has the first 12 characters of the SHA-1 of each bundle, as in `results/builds-*.json`. The run used local builds. A build at each commit below gives a bundle with the same sha1.
+The sha1 column has the first 12 characters of the SHA-1 of each bundle, as in `results/builds-*.json`. The run used local builds. A build at each rolldown commit below gives a bundle with the same sha1.
 
 | Build                       | Source                     | Variant         | sha1           |
 | --------------------------- | -------------------------- | --------------- | -------------- |
@@ -98,6 +98,8 @@ Each key names the folder of a bundle:
    node scripts/build-others.mjs webpack  # dist/webpack-<variant>/worker.mjs, results/builds-others.json
    node scripts/smoke.mjs eager defer webpack-eager webpack-defer
    ```
+
+   `build-others.mjs` adds its builds to `results/builds-others.json`, and it prints all rows of that file. Thus it also prints the Rspack rows of the run above.
 
 4. Measure the startup and the first use in Node.js:
 
